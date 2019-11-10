@@ -1,4 +1,4 @@
-html body{
+html ,body{
 padding: 0;
 margin: 0;
 }
@@ -9,37 +9,9 @@ margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 800px;
-}
+  height: 700px;
+  background-attachment: fixed;
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 18px;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-
-  main {
-    display: block;
 }
 
   figure img{
@@ -94,10 +66,77 @@ figcaption p{
   font-size: 15px;
 }
 
+
+.news-jumbo {
+  background-image: url(https://usatmmajunkie.files.wordpress.com/2019/10/greg-hardy-ben-sosoli-ufc-boston-3.jpg?w=1000&h=600&crop=1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  background-attachment: fixed;
+  margin-top: 5%;
+  
+
+}
+
+div img{
+  width: 400px;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+
+.title:hover{
+  text-decoration: underline;
+}
+
+
 @media screen and (max-width: 900px) {
 	figure {
 		width: 90%;
 		margin: 1em;
 	}
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  margin-right: 30px;
+  
+  
+}
+
+.newsimg {
+  width: 100%;
+  padding: 5px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn{   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.newsbody{
+  background-color: gainsboro;
+}
+
+.row {
+  margin: 15px;
+}
+
+.row img{
+  height: 230px;
 }
 
