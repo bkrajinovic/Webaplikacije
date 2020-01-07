@@ -37,7 +37,6 @@ h1 i {
 footer {
   background-color: #333;
   padding: 0.1em;
-  clear: both;
 }
 
 footer p{
@@ -76,24 +75,49 @@ figcaption p{
   height: 500px;
   background-attachment: fixed;
   margin-top: 5%;
-  
-
 }
 
-div img{
+.news-jumbo2 {
+  background-image: url(https://wallpapercave.com/wp/wp2511561.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+.news-jumbo3 {
+  background-image: url(https://i.pinimg.com/originals/c1/d1/ab/c1d1ab5d59ccbaf77330a2e4cce2d285.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+
+.news-jumbo4 {
+  background-image: url(https://www.wallpaperpimper.com/wallpapers/x5wiey/imac-21-retina-4k/ufc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+
+.container div img{
   width: 400px;
 }
 
-.title{
+.news_title{
   font-weight: 700;
   font-size: 2em;
   text-align: center;
 }
-
-.title:hover{
-  text-decoration: underline;
-}
-
 
 @media screen and (max-width: 900px) {
 	figure {
@@ -102,41 +126,38 @@ div img{
 	}
 }
 
-.leftcolumn {   
-  float: left;
-  width: 75%;
-  margin-right: 30px;
-  
-  
-}
-
-.newsimg {
-  width: 100%;
-  padding: 5px;
-}
-
-.card {
-   background-color: white;
-   padding: 20px;
-   margin-top: 20px;
-}
-
-@media screen and (max-width: 800px) {
-  .leftcolumn{   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-.newsbody{
-  background-color: gainsboro;
-}
-
 .row {
   margin: 15px;
 }
 
 .row img{
   height: 230px;
+}
+
+.news img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+  margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.news hr {
+	margin: 1em;
+	border: 1px solid black;
+}
+.news time {
+	font-size: 90%;
+  font-style: italic;
+  margin: 0 0 0 1em;
+}
+.fa-angle-left{
+  width: 20px;
+}
+.title{
+  text-align: center;
 }
 
